@@ -1,7 +1,16 @@
 .flexcontainer {
   display: -webkit-flex;
   display: flex;
-  width: 200px;
-  height: 150px;
+  width:1000px;
+  height: 1000px;
   background-color: blue;
+}
+
+.flex {
+  background-color: salmon;
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  border-radius: 10px;
+  text-align: center;
 }
