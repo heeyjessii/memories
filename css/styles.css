@@ -1,16 +1,30 @@
+header {
+  text-align: center;
+  font-size: 350%;
+  background-color: #A9A9A9;
+}
+
 .flexcontainer {
   display: -webkit-flex;
   display: flex;
-  width:1000px;
-  height: 1000px;
-  background-color: blue;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: row wrap;
+  flex-direction: row wrap;
+  width:100%;
+  height: 100%;
+  background-color: #F0FFFF;
+}
+
+.row {
+
 }
 
 .flex {
   background-color: salmon;
   width: 200px;
   height: 200px;
-  margin: 40px;
+  margin: 10px;
   border-radius: 10px;
   text-align: center;
 }
