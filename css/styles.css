@@ -5,8 +5,11 @@ header {
 }
 
 .flexcontainer {
-
+  position: absolute;
+  top: 160px;
+  left: 200px;
   background-color: #F0FFFF;
+  -webkit-perspective:1000;
 }
 
 
@@ -20,6 +23,16 @@ header {
   height: 300px;
   margin: 10px;
   border-radius: 10px;
+
 }
 
+img {
+  height: 200px;
+  width: 190px;
+}
+
+.front, .back{
+  backface-visibility: hidden;
+  position: absolute;
+}
 
