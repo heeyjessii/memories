@@ -5,25 +5,31 @@ header {
 }
 
 .flexcontainer {
-  position: absolute;
+
   top: 160px;
   left: 200px;
   background-color: #F0FFFF;
-  -webkit-perspective:1000;
 }
 
+#eight {
+  background-image: url("http://assets.academy.com/mgen/61/10634961.jpg?is=500,500");
+  height: 200px;
+  width: 190px;
+}
 
 .row{
   display: flex;
   justify-content: center;
 }
+
 .flex {
   background-color: salmon;
   width: 200px;
   height: 300px;
   margin: 10px;
   border-radius: 10px;
-
+  transition: 0.6s;
+  transform-style: preserve-3d;
 }
 
 img {
@@ -36,4 +42,5 @@ img {
   backface-visibility: hidden;
   position: absolute;
 }
+
 
