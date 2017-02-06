@@ -20,8 +20,8 @@ header {
   background-color: salmon;
   width: 200px;
   height: 300px;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 15px;
+  border-radius: 15px;
   transition: 0.6s;
   transform-style: preserve-3d;
 }
@@ -30,6 +30,9 @@ img  {
   margin: 5px;
   height: 200px;
   width: 190px;
+  border-radius: 15px;
+  position: fixed;
+  top: 30px;
 }
 
 
