@@ -6,3 +6,5 @@ function flip(id) {
     }, 1000);
   }
 }
+
+
